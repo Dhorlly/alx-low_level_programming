@@ -1,5 +1,4 @@
-#include <stdio>
-#include <unistd.h>
+#include "main.h"
 /**
 * file:0-putchar.c
 * main - prints -putchar, followed by a new line
