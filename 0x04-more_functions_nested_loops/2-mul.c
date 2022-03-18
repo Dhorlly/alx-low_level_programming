@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * mul - check the code for Holberton School students.
+ * mul - check the code for ALX School students.
  *@a : variable
  *@b : variable
  * Return: 0 or 1 .
