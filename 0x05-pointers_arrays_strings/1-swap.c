@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  * swap_int - check the code and print the function..
+ *  * swap_int - check the code for AlX students.
  *   * @a: variable.
  *    * @b: variable
  *     */
