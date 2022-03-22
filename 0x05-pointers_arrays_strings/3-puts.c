@@ -1,17 +1,16 @@
-/*
- * File: 3-puts.c
- * Author: Opetunde
- */
-
 #include "main.h"
-
-/*
- * _puts - Prints a string to stdout.
- * @str: The string to be printed.
+/**
+ *  _puts - print a string followed by a new line
+ * @str: string to print
+ * Return: Nothing
  */
 void _puts(char *str)
 {
-		while (*str)
-		_putchar(*str++);
-		_putchar('\n');
+		int i;
+
+			for (i = 0; *(str + i) != 0; i++)
+					{
+								_putchar(str[i]);
+									}
+				_putchar('\n');
 }
