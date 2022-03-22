@@ -1,18 +1,18 @@
+/*
+ *  * File: 3-puts.c
+ *   * Author: Opetunde
+ *    */
+
 #include "main.h"
-#include <string.h>
 
 /**
- *   _puts - check the code for ALX  students.
- *   @str: variable.
- */
-
+ *  * _puts - Prints a string to stdout.
+ *   * @str: The string to be printed.
+ *    */
 void _puts(char *str)
 {
-	int i;
+		while (*str)
+					_putchar(*str++);
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
+			_putchar('\n');
 }
