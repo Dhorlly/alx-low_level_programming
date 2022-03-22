@@ -1,10 +1,11 @@
 #include "main.h"
 
-/**
- *  * swap_int - check the code for AlX students.
- *   * @a: variable.
- *    * @b: variable
- *     */
+/*
+ * void swap_int(int *a, int *b) : function that swaps the values of two integers
+ * @a : this is a pointer
+ * @b: this is a pointer
+ *
+ */
 
 void swap_int(int *a, int *b)
 {
