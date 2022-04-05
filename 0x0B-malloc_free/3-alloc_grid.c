@@ -40,13 +40,4 @@ x[i][j] = leng;
 
 }
 return (x);
-}rn (NULL);
-
-}
-leng = 0;
-for (j = 0; j < width; j++)
-x[i][j] = leng;
-
-}
-return (x);
 }
