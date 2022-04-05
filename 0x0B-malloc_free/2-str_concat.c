@@ -47,35 +47,4 @@ leng[m] = s2[l];
 
 return (leng);
 
-} (s2 == NULL)
-s2 = "";
-
-while (s1[x] != '\0')
-
-x++;
-
-while (s2[y] != '\0')
-
-y++;
-y++;
-
-f = x + y;
-
-leng = malloc(sizeof(char) * f);
-
-if (leng == NULL)
-return (NULL);
-
-for (m = 0; m < x; m++)
-{
-leng[m] = s1[m];
-}
-
-for (l = 0; l < y; m++, l++)
-{
-leng[m] = s2[l];
-}
-
-return (leng);
-
 }
