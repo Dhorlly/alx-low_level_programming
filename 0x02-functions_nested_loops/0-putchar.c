@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
-* main - prints _putchar, followed by a new line.
-*
-* Retrun: Always 0 
-*/
+ * main - prints _putchar
+ *
+ * Return: 0 (Success)
+ */
+
 int main(void)
 {
 	_putchar('_');
