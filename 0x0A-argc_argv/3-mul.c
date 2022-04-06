@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Mian
+ * main - Main
  * @argc: int type
  * @argv: char type
  * Return: printis files name
