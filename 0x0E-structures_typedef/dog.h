@@ -22,6 +22,6 @@ char *owner;
 /**
 * dog_t - Typedef for struct dog
 */
-typedef struct dog dog_t;
+typedef struct dog my_dog;
 
 #endif
