@@ -1,10 +1,14 @@
-#ifndef _DOG_H
-#define _DOG_H
-struct dog {
+/**
+* struct dog - Declaring of types
+* @dog: First member
+* @age: Second member
+* @owner: Third member
+*
+* Description: Declaration
+*/
+struct dog 
+{
 char *name;
 float age;
 char *owner;
-/* declaring types name, age and owner. */
 };
-
-#endif
