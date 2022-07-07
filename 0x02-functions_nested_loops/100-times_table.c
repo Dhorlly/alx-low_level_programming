@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * print_times - Prints the times table, starting with 0
+ * print_times_table - Prints the times table, starting with 0
  * @n: the function argument
  */
 void print_times_table(int n);
